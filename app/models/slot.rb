@@ -1,4 +1,4 @@
 class Slot < ApplicationRecord
   belongs_to :categories
-  belongs_to :exchange
+  belongs_to :exchanges
 end
