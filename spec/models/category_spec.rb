@@ -31,11 +31,6 @@ RSpec.describe Category, type: :model do
     expect(@shoes_category).to_not be_valid
   end
 
-  it 'is invalid if icon length is more than 20 characters' do
-    @shoes_category.icon = 'i' * 40
-    expect(@shoes_category).to_not be_valid
-  end
-
   describe 'Associations' do
     it { should belong_to(:user) }
     it { should have_many(:exchanges).through(:slots) }
