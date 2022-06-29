@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,900&family=Parisienne&display=swap');
 @import './variables';
 @import './mixins';
 
@@ -65,3 +64,5 @@ button { border: none; }
 }
 
 .red_col { color: #eb0625; }
+
+.text-center { text-align: center; }
