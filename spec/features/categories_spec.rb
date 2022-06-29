@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'categories/index', type: :feature do
   before(:each) do
     @candy = User.create(name: 'Candy', email: 'candy@gmail.com',
-                          password: '123456', created_at: Time.now, updated_at: Time.now)
+                         password: '123456', created_at: Time.now, updated_at: Time.now)
     @candy.confirm
 
     @cat1 = Category.create(name: 'Category_1', icon: 'https://static.thenounproject.com/png/407799-200.png',
