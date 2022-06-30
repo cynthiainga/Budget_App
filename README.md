@@ -12,7 +12,7 @@
 - RoR
 - Sass
 
-## [Zoom Video]()
+## [Zoom Video](https://drive.google.com/file/d/1JjWSR05XG6RKwLy7hv6Tyf-JZwi6t8ro/view?usp=sharing)
 
 ## Getting Started
 
