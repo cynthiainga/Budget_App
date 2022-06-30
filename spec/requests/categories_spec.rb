@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe 'Categories', type: :request do
   before(:each) do
     @candy = User.create(name: 'Candy', email: 'candy@gmail.com', password: '123456')
-    @candy.confirm
     sign_in @candy
     get categories_url
   end

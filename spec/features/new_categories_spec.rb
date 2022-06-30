@@ -4,7 +4,6 @@ RSpec.describe 'new category page', type: :feature do
   before(:each) do
     @candy = User.create(name: 'Candy', email: 'candy@gmail.com',
                          password: '123456', created_at: Time.now, updated_at: Time.now)
-    @candy.confirm
   end
 
   after(:each) do

@@ -4,7 +4,6 @@ RSpec.describe 'login page', type: :feature do
   before(:each) do
     @user = User.create(name: 'Candy', email: 'candy@gmail.com',
                         password: '123456', created_at: Time.now, updated_at: Time.now)
-    @user.confirm
     visit user_session_path
   end
 
